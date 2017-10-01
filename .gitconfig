@@ -1,0 +1,10 @@
+[user]
+	email = mvmjacobs@gmail.com
+	name = Marcos Vinicius Jacobs
+[alias]
+	st = status
+	unstage = reset HEAD --
+	bs = checkout -b
+	goto = !git stash && git checkout
+	discard = checkout
+	cm = commit -a -m
