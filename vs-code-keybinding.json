@@ -47,5 +47,9 @@
         "key": "ctrl+k ctrl+j",
         "command": "-editor.unfoldAll",
         "when": "editorTextFocus"
-    }
+	},
+	{
+		"key": "ctrl+g ctrl+p",
+		"command": "git.push"
+	}
 ]
