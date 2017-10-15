@@ -5,6 +5,7 @@
 	st = status
 	unstage = reset HEAD --
 	bs = checkout -b
-	goto = !git stash && git checkout
+	goto = checkout
 	discard = checkout
-	cm = commit -a -m
+	save = stash save
+	view = log --pretty=format:'%C(auto,yellow)%h %C(reset)%ad %C(auto,green)<%aE>%x09%C(reset)%s' --date=format:'%d/%m/%Y %H:%M'
