@@ -9,13 +9,14 @@
 	"window.zoomLevel": 0,
 	"html.format.wrapLineLength": 0,
 	"html.format.indentInnerHtml": true,
-	"team.showWelcomeMessage": false,
-	"workbench.startupEditor": "newUntitledFile",
+	"workbench.startupEditor": "none",
 	"html.format.preserveNewLines": true,
 	"editor.formatOnSave": false,
-	"editor.detectIndentation": true,
+	"editor.detectIndentation": false,
 	"editor.tabSize": 2,
 	"editor.insertSpaces": false,
 	"files.autoSave": "off",
-	"html.format.unformatted": "null"
+	"html.format.unformatted": "null",
+	"git.autofetch": true,
+	"git.confirmSync": false
 }
