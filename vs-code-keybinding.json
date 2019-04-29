@@ -1,75 +1,46 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-	{
-		"key": "ctrl+k ctrl+d",
-		"command": "editor.action.formatDocument",
-		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-	},
-	{
-		"key": "ctrl+alt+a",
-		"command": "workbench.action.quickOpen"
-	},
-	{
-		"key": "ctrl+p",
-		"command": "-workbench.action.quickOpen"
-	},
-	{
-		"key": "ctrl+m ctrl+m",
-		"command": "editor.fold",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+oem_4",
-		"command": "-editor.fold",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+m ctrl+o",
-		"command": "editor.foldAll",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+k ctrl+m",
-		"command": "-editor.foldAll",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+k ctrl+0",
-		"command": "-editor.foldAll",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+m ctrl+l",
-		"command": "editor.unfoldAll",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+k ctrl+j",
-		"command": "-editor.unfoldAll",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+g ctrl+p",
-		"command": "git.push"
-	},
-	{
-		"key": "f8",
-		"command": "workbench.action.debug.continue",
-		"when": "inDebugMode"
-	},
-	{
-		"key": "f5",
-		"command": "-workbench.action.debug.continue",
-		"when": "inDebugMode"
-	},
-	{
-		"key": "f5",
-		"command": "extension.runQuery",
-		"when": "editorTextFocus && editorLangId == 'sql'"
-	},
-	{
-		"key": "ctrl+shift+e",
-		"command": "-extension.runQuery",
-		"when": "editorTextFocus && editorLangId == 'sql'"
-	}
+  {
+    "key": "ctrl+k ctrl+d",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+m ctrl+m",
+    "command": "editor.fold",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+m ctrl+o",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+m ctrl+l",
+    "command": "editor.unfoldAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+g ctrl+p",
+    "command": "git.push"
+  },
+  {
+    "key": "f8",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "extension.runQuery",
+    "when": "editorTextFocus && editorLangId == 'sql'"
+  },
 ]
