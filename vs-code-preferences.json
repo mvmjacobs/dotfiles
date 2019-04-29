@@ -1,6 +1,4 @@
 {
-  "vsicons.projectDetection.autoReload": true,
-  "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Atom One Dark",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
   "window.menuBarVisibility": "default",
@@ -15,9 +13,26 @@
   "editor.formatOnSave": false,
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
-  "editor.insertSpaces": false,
+  "editor.insertSpaces": true,
   "files.autoSave": "off",
   "html.format.unformatted": "null",
   "git.autofetch": true,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "mssql.connections": [
+    {
+      "server": "localhost",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "sa",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "localhost"
+    }
+  ],
+  "git.enableSmartCommit": true,
+  "scssFormatter.singleQuote": true,
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "vscode-icons"
 }
