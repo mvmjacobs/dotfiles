@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Atom One Dark",
-  "window.menuBarVisibility": "default",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
   "workbench.sideBar.location": "left",
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
@@ -18,6 +18,11 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "scssFormatter.singleQuote": true,
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "off",
   "mssql.connections": [
     {
       "server": "localhost",
@@ -29,9 +34,5 @@
       "savePassword": true,
       "profileName": "localhost"
     }
-  ],
-  "git.enableSmartCommit": true,
-  "scssFormatter.singleQuote": true,
-  "breadcrumbs.enabled": true,
-  "workbench.iconTheme": "vscode-icons"
+  ]
 }
