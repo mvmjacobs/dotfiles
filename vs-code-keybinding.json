@@ -1,30 +1,30 @@
 [
   {
-    "key": "ctrl+k ctrl+d",
+    "key": "meta+k meta+d",
     "command": "editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+alt+a",
+    "key": "meta+alt+a",
     "command": "workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+m ctrl+m",
+    "key": "meta+m meta+m",
     "command": "editor.fold",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+m ctrl+o",
+    "key": "meta+m meta+o",
     "command": "editor.foldAll",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+m ctrl+l",
+    "key": "meta+m meta+l",
     "command": "editor.unfoldAll",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+g ctrl+p",
+    "key": "meta+g meta+p",
     "command": "git.push"
   },
   {
