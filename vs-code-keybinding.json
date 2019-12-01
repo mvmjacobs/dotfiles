@@ -1,4 +1,3 @@
-// Place your key bindings in this file to overwrite the defaults
 [
   {
     "key": "ctrl+k ctrl+d",
@@ -42,5 +41,5 @@
     "key": "f5",
     "command": "extension.runQuery",
     "when": "editorTextFocus && editorLangId == 'sql'"
-  },
+  }
 ]

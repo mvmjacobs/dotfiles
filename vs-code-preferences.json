@@ -1,6 +1,5 @@
 {
   "workbench.colorTheme": "Atom One Dark",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
   "window.menuBarVisibility": "default",
   "workbench.sideBar.location": "left",
   "workbench.activityBar.visible": true,
