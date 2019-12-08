@@ -7,8 +7,8 @@ FROM ubuntu:16.04
 
 # apt-get and system utilities
 RUN apt-get update && apt-get install -y \
-	curl apt-transport-https debconf-utils \
-    && rm -rf /var/lib/apt/lists/*
+	curl apt-transport-https debconf-utils && \
+  rm -rf /var/lib/apt/lists/*
 
 # Add custom MS repository
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
@@ -39,17 +39,13 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
 RUN apt-get install -y mssql-server
 
 # Install optional packages.  Comment out the ones you don't need
-# RUN apt-get install -y mssql-server-agent
-# RUN apt-get install -y mssql-server-ha
-  RUN apt-get install -y mssql-server-fts
+RUN apt-get install -y mssql-server-agent
+RUN apt-get install -y mssql-server-ha
+RUN apt-get install -y mssql-server-fts
+
+# Cleanup the Dockerfile
+RUN apt-get clean && \
+  rm -rf /var/lib/apt/lists
 
 # Run SQL Server process
 CMD /opt/mssql/bin/sqlservr
-
-#################################################################
-
-# HOW TO USE
-
-# cd path/to/dockerfile
-# docker build -t mssql_server_linux_fts .
-# docker run -d --name sql_server_fts -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=abc123##' -e 'MSSQL_PID=Developer' -p 1433:1433 mssql_server_linux_fts
