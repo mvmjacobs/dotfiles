@@ -11,3 +11,4 @@
 	view = log --pretty=format:'%C(auto,yellow)%h %C(reset)%ad %C(auto,green)<%aE>%x09%C(reset)%s' --date=format:'%d/%m/%Y %H:%M'
 	abort-merge = reset --hard HEAD
 	fp = !git fetch --prune --tags && git pull
+	cb = !git branch| grep -v 'master' | xargs git branch -D
