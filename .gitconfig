@@ -11,7 +11,7 @@
 	view = log --pretty=format:'%C(auto,yellow)%h %C(reset)%ad %C(auto,green)<%aE>%x09%C(reset)%s' --date=format:'%d/%m/%Y %H:%M'
 	abort-merge = reset --hard HEAD
 	fp = !git fetch --prune --tags && git pull
-	lcf = !git config user.email "marcos@forlogic.net"
+	lxp = !git config user.email "marcos.jacobs@xpi.com.br"
 	cb = !git branch | grep -v "master" | grep -v "main" | xargs git branch -D
 	changelog = log --pretty=format:'%C(reset)%s ([%C(auto)%h](https://github.com/USERNAME/REPOSITORY/commit/%C(auto)%h))'
 	
