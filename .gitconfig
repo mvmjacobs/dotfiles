@@ -1,6 +1,6 @@
 [user]
 	email = mvmjacobs@gmail.com
-	name = Marcos Vincius Jacobs
+	name = Marcos Vinicius Jacobs
 [alias]
 	st = status
 	unstage = reset HEAD --
@@ -12,6 +12,7 @@
 	abort-merge = reset --hard HEAD
 	fp = !git fetch --prune --tags && git pull
 	lxp = !git config user.email "marcos.jacobs@xpi.com.br"
+	lpc = !git config user.email "mvmjacobs@gmail.com"
 	cb = !git branch | grep -v "master" | grep -v "main" | xargs git branch -D
 	changelog = log --pretty=format:'%C(reset)%s ([%C(auto)%h](https://github.com/USERNAME/REPOSITORY/commit/%C(auto)%h))'
 	
