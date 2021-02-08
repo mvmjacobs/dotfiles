@@ -1,30 +1,30 @@
 [
   {
-    "key": "meta+k meta+d",
+    "key": "ctrl+k ctrl+d",
     "command": "editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "meta+alt+a",
+    "key": "ctrl+alt+a",
     "command": "workbench.action.quickOpen"
   },
   {
-    "key": "meta+m meta+m",
+    "key": "ctrl+m ctrl+m",
     "command": "editor.fold",
     "when": "editorTextFocus"
   },
   {
-    "key": "meta+m meta+o",
+    "key": "ctrl+m ctrl+o",
     "command": "editor.foldAll",
     "when": "editorTextFocus"
   },
   {
-    "key": "meta+m meta+l",
+    "key": "ctrl+m ctrl+l",
     "command": "editor.unfoldAll",
     "when": "editorTextFocus"
   },
   {
-    "key": "meta+g meta+p",
+    "key": "ctrl+g ctrl+p",
     "command": "git.push"
   },
   {
@@ -41,5 +41,15 @@
     "key": "f5",
     "command": "extension.runQuery",
     "when": "editorTextFocus && editorLangId == 'sql'"
+  },
+  {
+    "key": "ctrl+r ctrl+g",
+    "command": "editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+  },
+  {
+    "key": "shift+alt+o",
+    "command": "-editor.action.organizeImports",
+    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
   }
 ]
