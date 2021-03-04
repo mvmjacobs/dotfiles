@@ -1,0 +1,111 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ],
+  "copyFormatting": false,
+  "copyOnSelect": false,
+  "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+  "profiles": {
+    "defaults": {
+      "closeOnExit": true,
+      "colorScheme": "OneDark",
+      "fontFace": "Consolas",
+      "fontSize": 10,
+      "hidden": false,
+      "snapOnInput": true
+    },
+    "list": [
+      {
+        "commandline": "cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Prompt de comando"
+      },
+      {
+        "closeOnExit": true,
+        "colorScheme": "GitBash",
+        "commandline": "C:/Program Files/Git/bin/bash.exe --login",
+        "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
+        "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
+        "name": "Git Bash"
+      },
+      {
+        "commandline": "powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#1e2127",
+      "black": "#1e2127",
+      "blue": "#61afef",
+      "brightBlack": "#5c6370",
+      "brightBlue": "#61afef",
+      "brightCyan": "#56b6c2",
+      "brightGreen": "#98c379",
+      "brightPurple": "#c678dd",
+      "brightRed": "#e06c75",
+      "brightWhite": "#ffffff",
+      "brightYellow": "#d19a66",
+      "cyan": "#56b6c2",
+      "foreground": "#abb2bf",
+      "green": "#98c379",
+      "name": "OneDark",
+      "purple": "#c678dd",
+      "red": "#e06c75",
+      "white": "#abb2bf",
+      "yellow": "#d19a66"
+    },
+    {
+      "background": "#000000",
+      "black": "#0C0C0C",
+      "blue": "#6060ff",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "cyan": "#3A96DD",
+      "foreground": "#bfbfbf",
+      "green": "#00a400",
+      "grey": "#bfbfbf",
+      "name": "GitBash",
+      "purple": "#bf00bf",
+      "red": "#bf0000",
+      "white": "#ffffff",
+      "yellow": "#bfbf00"
+    }
+  ]
+}
