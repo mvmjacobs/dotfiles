@@ -4,7 +4,7 @@
   "workbench.sideBar.location": "left",
   "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "html.format.wrapLineLength": 0,
   "html.format.indentInnerHtml": true,
   "workbench.startupEditor": "none",
@@ -34,5 +34,57 @@
       "savePassword": true,
       "profileName": "localhost"
     }
-  ]
+  ],
+  "explorer.confirmDelete": false,
+  "workbench.editor.empty.hint": "hidden",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "explorer.confirmPasteNative": false,
+  "prettier.printWidth": 500,
+  "editor.wordWrapColumn": 500,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "NugetGallery.sources": [],
+  "NugetGallery.credentialProviderFolder": "{user-profile}/.nuget/plugins/netcore/CredentialProvider.Microsoft",
+  "NugetGallery.skipRestore": false,
+  "dotnet.formatting.organizeImportsOnFormat": true,
+  "scssFormatter.printWidth": 500,
+  "dart.lineLength": 160,
+  "http.proxyStrictSSL": false,
+  "flutter-coverage.sufficientCoverageThreshold": 70,
+  "flutter-coverage.lowCoverageThreshold": 50,
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "debug.openDebug": "openOnDebugBreak",
+  "[dart]": {
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+      160
+    ]
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "explorer.confirmDragAndDrop": false
 }
