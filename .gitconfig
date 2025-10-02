@@ -1,6 +1,8 @@
 [user]
   email = mvmjacobs@gmail.com
   name = Marcos Jacobs
+[core]
+autocrlf = true
 [alias]
   st = status
   unstage = reset HEAD --
