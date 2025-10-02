@@ -2,7 +2,7 @@
   email = mvmjacobs@gmail.com
   name = Marcos Jacobs
 [core]
-autocrlf = true
+  autocrlf = true
 [alias]
   st = status
   unstage = reset HEAD --
